@@ -16,7 +16,7 @@ def extract_raw_feedback(raw_feedback):
 	"""Extract the most important information/lines from the raw simulation feedback"""
 	
 	# i only care about extracting specific information from the raw feedback files
-	important_feedback_keywords = ["FAIL", "Time", "Signal", "Expected", "Actual", "Error"]
+	important_feedback_keywords = ["FAIL", "Time", "Signal", "Expected", "Actual", "Error", "Passed", "Test completed"]
 	extracted_lines_of_feedback = []
 
 	# i need to loop through each line of the feedback and just look for/extract the information I care about
