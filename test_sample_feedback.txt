@@ -1,0 +1,5 @@
+FAIL: counter_test
+Time: 120 ns
+Signal: count
+Expected: 4
+Actual: 3

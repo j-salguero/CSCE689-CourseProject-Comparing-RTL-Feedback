@@ -1,0 +1,15 @@
+ModelSim Simulation Started
+Loading work.tb
+Running simulation...
+
+Test: counter_test
+Time: 120 ns
+Signal: count
+Expected: 4
+Actual: 3
+FAIL: counter_test
+
+Simulation completed.
+Total tests: 5
+Passed tests: 4
+Failed tests: 1

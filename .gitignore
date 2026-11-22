@@ -1,0 +1,14 @@
+# ignore Python files that get generated automatically
+__pycache__/
+*.pyc
+
+# ignore Python environments
+.venv/
+venv/
+
+# ignore local settings and API keys
+.env
+api.ini
+
+# and ignore the generated simulation output
+*.wlf
