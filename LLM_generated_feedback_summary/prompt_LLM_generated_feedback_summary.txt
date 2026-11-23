@@ -1,0 +1,14 @@
+Need help summarizing raw simulation feedback from Verilog RTL testing, in order to make the feedback easier to understand while maintaining the important information. You are given the raw simulation output and need an output that identifies the important results and produces a short written paragraph summary. 
+
+In the summary, you should include:
+- Relevant information about the input RTL design
+- Whether the RTL design passed or failed the provided test(s)
+- Any relevant error messages
+- Expected vs actual results
+- Number of tests completed, passed, or failed
+
+You may add more information from the raw simulation results if they are relevant to fixing the error. However, only use information that is provided in the raw simulation feedback, do not make up any missing details or suggest potential repairs. 
+
+Here is the raw simulation feedback:
+
+
